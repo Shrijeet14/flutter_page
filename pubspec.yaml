@@ -1,0 +1,64 @@
+# name: healthapp
+# description: "A new Flutter project."
+# publish_to: 'none' 
+# version: 1.0.0+1
+
+
+
+# environment:
+#   sdk: '>=3.4.0 <4.0.0'
+
+
+
+# dependencies:
+#   flutter:
+#     sdk: flutter
+#   http: ^0.13.3
+#   image_picker: ^0.8.4+4
+#   cupertino_icons: ^1.0.6
+
+
+
+
+# dev_dependencies:
+#   flutter_test:
+#     sdk: flutter
+
+#   flutter_lints: ^3.0.0
+
+
+
+
+# flutter:
+#   uses-material-design: true
+
+
+name: healthapp
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3
+  image_picker: ^0.8.4+4
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^0.22.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/disease1.png
+    - assets/icons/disease2.png
+    - assets/icons/disease3.png
+
